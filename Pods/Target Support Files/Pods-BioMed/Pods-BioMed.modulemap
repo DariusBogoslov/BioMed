@@ -1,0 +1,6 @@
+framework module Pods_BioMed {
+  umbrella header "Pods-BioMed-umbrella.h"
+
+  export *
+  module * { export * }
+}
