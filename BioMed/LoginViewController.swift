@@ -41,7 +41,6 @@ class LoginViewController: UIViewController {
         }
         
         let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [UIColor.green.cgColor, UIColor.black.cgColor]
         gradientLayer.frame = view.frame
         
         view.layer.insertSublayer(gradientLayer, at: 0)
