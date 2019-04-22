@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ACDEA2046EC4BAD1C049FA0F /* Pods_BioMed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560FE9A8D40C8DD48997EE10 /* Pods_BioMed.framework */; };
 		D6070DE7226BB4BB0047EB34 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6070DE6226BB4BB0047EB34 /* CoreBluetooth.framework */; };
+		D6213F12226DBCE70064924E /* BluetoothWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6213F11226DBCE70064924E /* BluetoothWorker.swift */; };
 		D6385A3C226B6A600086B0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6385A3B226B6A600086B0C5 /* AppDelegate.swift */; };
 		D6385A3E226B6A600086B0C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6385A3D226B6A600086B0C5 /* LoginViewController.swift */; };
 		D6385A41226B6A600086B0C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6385A3F226B6A600086B0C5 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		7D7A5390C3066F94A3008293 /* Pods-BioMed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioMed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BioMed/Pods-BioMed.debug.xcconfig"; sourceTree = "<group>"; };
 		95045C38A0938E4C3BD06F35 /* Pods-BioMed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioMed.release.xcconfig"; path = "Pods/Target Support Files/Pods-BioMed/Pods-BioMed.release.xcconfig"; sourceTree = "<group>"; };
 		D6070DE6226BB4BB0047EB34 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D6213F11226DBCE70064924E /* BluetoothWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothWorker.swift; sourceTree = "<group>"; };
 		D6385A38226B6A600086B0C5 /* BioMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6385A3B226B6A600086B0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6385A3D226B6A600086B0C5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				D6385A47226B6A620086B0C5 /* Info.plist */,
 				D6385A4F226B82790086B0C5 /* GradientView.swift */,
 				D6C8747C226BABEC00675D47 /* MainViewController.swift */,
+				D6213F11226DBCE70064924E /* BluetoothWorker.swift */,
 			);
 			path = BioMed;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6213F12226DBCE70064924E /* BluetoothWorker.swift in Sources */,
 				D6385A3E226B6A600086B0C5 /* LoginViewController.swift in Sources */,
 				D6385A3C226B6A600086B0C5 /* AppDelegate.swift in Sources */,
 				D6385A50226B82790086B0C5 /* GradientView.swift in Sources */,
